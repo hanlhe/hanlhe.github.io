@@ -18,4 +18,4 @@ print friendly version is [here](./resume/Resume_HanlinHE.pdf).
 
 - A chess solver
 
-- A Tetris game
+- A Coq verified regular expression implementation [regex](./regex/).
