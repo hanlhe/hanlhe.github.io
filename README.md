@@ -15,6 +15,5 @@ print friendly version is [here](./resume/Resume_HanlinHE.pdf).
 
 ### Miscellaneous
 
-- [A SIMPL language interpreter](https://hanlin-he.github.io/SIMPL/)
-
-- A Coq verified regular expression implementation [regex](./regex/).
+- Current Marathon PR: 05:27:00 @ BMW Dallas Marathon 2017
+- Current Half Marathon PR: 02:14:58 @ Silicon Vallet Half Marathon 2018
