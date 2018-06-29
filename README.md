@@ -15,5 +15,5 @@ print friendly version is [here](./resume/Resume_HanlinHE.pdf).
 
 ### Miscellaneous
 
-- Current Marathon PR: 05:27:00 @ BMW Dallas Marathon 2017
-- Current Half Marathon PR: 02:14:58 @ Silicon Vallet Half Marathon 2018
+- Marathon PR: 05:27:00 @ BMW Dallas Marathon 2017
+- Half Marathon PR: 02:14:58 @ Silicon Valley Half Marathon 2018
