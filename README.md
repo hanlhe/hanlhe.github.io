@@ -15,5 +15,9 @@ print friendly version is [here](./resume/Resume_HanlinHE.pdf).
 
 ### Miscellaneous
 
-- Marathon PR: 05:27:00 @ BMW Dallas Marathon 2017
-- Half Marathon PR: 02:14:58 @ Silicon Valley Half Marathon 2018
+Marathon
+- 05:44:19 @ Dalian International Marathon 2016
+- 05:27:00 @ BMW Dallas Marathon 2017
+
+Half Marathon
+- 02:14:58 @ Silicon Valley Half Marathon 2018
