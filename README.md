@@ -21,3 +21,4 @@ Marathon
 
 Half Marathon
 - 02:14:58 @ Silicon Valley Half Marathon 2018
+- 02:29:51 @ Tour des Fleurs Half Marathon 2018
