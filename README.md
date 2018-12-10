@@ -16,7 +16,7 @@ print friendly version is [here](./resume/Resume_HanlinHE.pdf).
 ### Miscellaneous
 
 Marathon
-- 05:44:19 @ Dalian International Marathon 2016
+- [05:44:19](http://www.geexek.com/score/pscore?cGlkPTUyNzA3ODcmY2lkPTc2MTMmcmlkPTIzMjQzJm5pZ2h0PTAmb3BlbklkPSZ1c2VySWQ9) @ [Dalian International Marathon 2016](http://www.dlmls.org/)
 - [05:27:00](https://www.athlinks.com/event/20447/results/Event/696876/Course/1135965/Bib/2296) @ [BMW Dallas Marathon 2017](https://www.bmwdallasmarathon.com/)
 - [05:16:40](https://www.athlinks.com/event/20447/results/Event/701326/Course/1141975/Bib/183) @ [BMW Dallas Marathon 2018](https://www.bmwdallasmarathon.com/)
 
