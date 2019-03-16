@@ -2,12 +2,7 @@
 
 My name is [Hanlin He](https://www.linkedin.com/in/hehanlin/).
 
-I'm currently a data engineer at Cisco Tetration Analytics, Palo Alto.
-
-<!---
-Here is my [resume](https://hanlin-he.github.io/resume/), a single page,
-print friendly version is [here](./resume/Resume_HanlinHE.pdf).
--->
+I'm currently a software engineer at Cisco Tetration Analytics, Palo Alto.
 
 ### Academic
 
@@ -26,4 +21,4 @@ Half Marathon
 
 Misc
 - [01:15:38](https://www.athlinks.com/event/19807/results/Event/711028/Course/1162494/Bib/2404) @ [Across the Bay 12K & 415K 2018](http://www.representrunning.com/across-bay-12k-415k/)
-- [00:47:17](https://results.rmraces.live/represent-running/events/2019/san-jose-408k-race-to-the-row/2151/entrant?share=1) @ [San Jose 408K Race to the Row 2019](http://run408k.com/)
+- [00:47:17](https://www.athlinks.com/event/19352/results/Event/840700/Course/1522884/Bib/2151) @ [San Jose 408K Race to the Row 2019](http://run408k.com/)
