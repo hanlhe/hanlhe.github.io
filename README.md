@@ -1,8 +1,8 @@
-## Welcome
+## `Welcome`
 
-My name is [`Hanlin He`](https://www.linkedin.com/in/hehanlin/).
+`My name is `[`Hanlin He`](https://www.linkedin.com/in/hehanlin/).
 
-I'm currently a software engineer at Cisco Tetration Analytics, Palo Alto.
+`I'm currently a software engineer at Cisco Tetration Analytics, Palo Alto.`
 
 #### `Running Sets Me Free`
 
