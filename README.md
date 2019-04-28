@@ -14,6 +14,7 @@
 `Half Marathon`
 - [`02:14:58`](https://www.athlinks.com/event/235654/results/Event/722926/Course/1187930/Bib/2551) @ [`Silicon Valley Half Marathon 2018`](http://svhalfmarathon.com/)
 - [`02:29:51`](https://www.athlinks.com/event/35571/results/Event/741490/Course/1235346/Bib/1491) @ [`Tour des Fleurs Half Marathon 2018`](https://www.tourdesfleurs.com/)
+- [`02:02:08`]() @ [`Silicon Valley Half Marathon 2019`](http://svhalfmarathon.com/)
 
 `Misc`
 - [`01:15:38`](https://www.athlinks.com/event/19807/results/Event/711028/Course/1162494/Bib/2404) @ [`Across the Bay 12K & 415K 2018`](http://www.representrunning.com/across-bay-12k-415k/)
