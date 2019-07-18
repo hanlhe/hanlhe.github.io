@@ -22,4 +22,4 @@
 - [`01:15:38`](https://www.athlinks.com/event/19807/results/Event/711028/Course/1162494/Bib/2404) @ [`Across the Bay 12K & 415K 06/10/2018`](http://www.representrunning.com/across-bay-12k-415k/)
 - [`00:47:17`](https://www.athlinks.com/event/19352/results/Event/840700/Course/1522884/Bib/2151) @ [`San Jose 408K Race to the Row 02/03/2019`](http://run408k.com/)
 - [`00:55:26`](https://www.athlinks.com/event/311027/results/Event/847184/Course/1554401/Bib/336) @ [`San Jose Shamrock Run 03/17/2019`](http://sanjoseshamrockrun.com/)
-- `01:09:59` @ [`Across the Bay 12K & 415K 07/14/2019`](http://www.representrunning.com/across-bay-12k-415k/)
+- [`01:09:59`](https://www.athlinks.com/event/19807/results/Event/869327/Course/1642781/Bib/3122) @ [`Across the Bay 12K & 415K 07/14/2019`](http://www.representrunning.com/across-bay-12k-415k/)
