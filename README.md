@@ -19,6 +19,7 @@
 - [`02:02:08`](https://www.athlinks.com/event/235654/results/Event/855075/Course/1585358/Bib/517) @ [`Silicon Valley Half Marathon 04/28/2019`](http://svhalfmarathon.com/)
 - [`02:01:33`](https://www.athlinks.com/event/12659/results/Event/858375/Course/1598012/Bib/727) @ [`Capitola Half Marathon & Relay 05/19/2019`](https://www.runsurferspath.com/marathon/half-marathon/)
 - [`03:07:02`](https://www.athlinks.com/event/43012/results/event/862372/course/1613888/bib/851) @ [`Trailquake Half Marathon 06/02/2019`](https://brazenracing.com/trailquake/)
+- [`01:58:40`]() @ [`Biofreeze Berkeley Half Marathon 11/17/2019`](https://berkeleyhalfmarathon.com/)
 
 `Misc`
 - [`01:15:38`](https://www.athlinks.com/event/19807/results/Event/711028/Course/1162494/Bib/2404) @ [`Across the Bay 12K & 415K 06/10/2018`](http://www.representrunning.com/across-bay-12k-415k/)
