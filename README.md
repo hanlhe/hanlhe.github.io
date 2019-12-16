@@ -8,8 +8,8 @@
 
 `Marathon`
 - [`05:44:19`](http://www.geexek.com/score/pscore?cGlkPTUyNzA3ODcmY2lkPTc2MTMmcmlkPTIzMjQzJm5pZ2h0PTAmb3BlbklkPSZ1c2VySWQ9) @ [`Dalian International Marathon 05/22/2016`](http://www.dlmls.org/)
-- [`05:27:00`](https://www.athlinks.com/event/20447/results/Event/696876/Course/1135965/Bib/2296) @ [`BMW Dallas Marathon 12/10/2017`](https://www.bmwdallasmarathon.com/)
-- [`05:16:40`](https://www.athlinks.com/event/20447/results/Event/701326/Course/1141975/Bib/183) @ [`BMW Dallas Marathon 12/09/2018`](https://www.bmwdallasmarathon.com/)
+- [`05:27:00`](https://www.athlinks.com/event/20447/results/Event/696876/Course/1135965/Bib/2296) @ [`BMW Dallas Marathon 12/10/2017`](https://www.rundallas.com/events/bmw-dallas-marathon-weekend/)
+- [`05:16:40`](https://www.athlinks.com/event/20447/results/Event/701326/Course/1141975/Bib/183) @ [`BMW Dallas Marathon 12/09/2018`](https://www.rundallas.com/events/bmw-dallas-marathon-weekend/)
 - [`04:29:33`](https://www.athlinks.com/event/1403/results/Event/872627/Course/1654891/Bib/2636) @ [`Biofreeze San Francisco Marathon 07/28/2019`](https://www.thesfmarathon.com/)
 - [`04:35:55`](https://www.athlinks.com/event/96107/results/event/887431/course/1712925/bib/59820) @ [`Bank of America Chicago Marathon 10/13/2019`](https://chicagomarathon.com/)
 - [`04:41:12`]() @ [`BMW Dallas Marathon 12/15/2019`](https://www.rundallas.com/events/bmw-dallas-marathon-weekend/)
