@@ -12,6 +12,7 @@
 - [`05:16:40`](https://www.athlinks.com/event/20447/results/Event/701326/Course/1141975/Bib/183) @ [`BMW Dallas Marathon 12/09/2018`](https://www.bmwdallasmarathon.com/)
 - [`04:29:33`](https://www.athlinks.com/event/1403/results/Event/872627/Course/1654891/Bib/2636) @ [`Biofreeze San Francisco Marathon 07/28/2019`](https://www.thesfmarathon.com/)
 - [`04:35:55`](https://www.athlinks.com/event/96107/results/event/887431/course/1712925/bib/59820) @ [`Bank of America Chicago Marathon 10/13/2019`](https://chicagomarathon.com/)
+- [`04:41:12`]() @ [`BMW Dallas Marathon 12/15/2019`](https://www.rundallas.com/events/bmw-dallas-marathon-weekend/)
 
 `Half Marathon`
 - [`02:14:58`](https://www.athlinks.com/event/235654/results/Event/722926/Course/1187930/Bib/2551) @ [`Silicon Valley Half Marathon 04/15/2018`](http://svhalfmarathon.com/)
