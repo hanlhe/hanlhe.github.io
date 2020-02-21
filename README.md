@@ -2,7 +2,7 @@
 
 My name is [`Hanlin He`](https://www.linkedin.com/in/gopher/).
 
-I'm currently a ~data~ software engineer at Cisco Tetration Analytics, Palo Alto.
+I'm currently a data engineer at Cisco Tetration Analytics, Palo Alto.
 
 #### Running Sets Me Free
 
