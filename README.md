@@ -1,10 +1,10 @@
 ## Welcome
 
-My name is [`Hanlin He`](https://www.linkedin.com/in/gopher/).
+My name is [`Hanlin He`](https://www.linkedin.com/in/hanlin10/).
 
 I'm currently a data engineer at Cisco Tetration Analytics, Palo Alto.
 
-#### Running Sets Me Free
+#### [Running Sets Me Free](https://hanlhe.github.io/running_page/)
 
 Marathon
 - [`05:44:19`](http://www.geexek.com/score/pscore?cGlkPTUyNzA3ODcmY2lkPTc2MTMmcmlkPTIzMjQzJm5pZ2h0PTAmb3BlbklkPSZ1c2VySWQ9) @ [`Dalian International Marathon 05/22/2016`](http://www.dlmls.org/)
