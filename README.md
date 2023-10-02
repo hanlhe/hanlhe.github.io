@@ -15,7 +15,7 @@ Marathon
 - [`05:44:19`](http://www.geexek.com/score/pscore?cGlkPTUyNzA3ODcmY2lkPTc2MTMmcmlkPTIzMjQzJm5pZ2h0PTAmb3BlbklkPSZ1c2VySWQ9) @ [Dalian International Marathon 05/22/2016](http://www.dlmls.org/)
 
 Half Marathon
-- [`02:08:15`]() @ [Rock 'n' Roll San Jose Half Marathon](https://www.runrocknroll.com/san-jose)
+- [`02:08:15`]() @ [Rock 'n' Roll San Jose Half Marathon 10/01/2023](https://www.runrocknroll.com/san-jose)
 - [`01:58:40`](https://www.athlinks.com/event/95041/results/Event/893430/Course/1733187/Bib/2567) @ [Biofreeze Berkeley Half Marathon 11/17/2019](https://berkeleyhalfmarathon.com/)
 - [`03:07:02`](https://www.athlinks.com/event/43012/results/event/862372/course/1613888/bib/851) @ [Trailquake Half Marathon 06/02/2019](https://brazenracing.com/trailquake/)
 - [`02:01:33`](https://www.athlinks.com/event/12659/results/Event/858375/Course/1598012/Bib/727) @ [Capitola Half Marathon & Relay 05/19/2019](https://www.runsurferspath.com/marathon/half-marathon/)
