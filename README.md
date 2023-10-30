@@ -1,6 +1,6 @@
 ## Welcome
 
-My name is [𝙷𝚊𝚗𝚕𝚒𝚗](https://www.linkedin.com/in/hanlin10/).
+My name is [`Hanlin`](https://www.linkedin.com/in/hanlin10/).
 
 I'm currently a data engineer at Cisco Secure Workload (formerly Tetration Analytics), San Jose.
 
