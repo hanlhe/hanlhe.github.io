@@ -4,8 +4,6 @@ My name is [𝙷𝚊𝚗𝚕𝚒𝚗](https://www.linkedin.com/in/hanlin10/).
 
 I'm currently a data engineer at Cisco Secure Workload (formerly Tetration Analytics), San Jose.
 
-#### [Running Sets Me Free](https://hanlhe.github.io/running_page/)
-
 Marathon
 - [`04:41:12`](https://www.athlinks.com/event/20447/results/Event/898312/Course/1747466/Bib/293) @ [BMW Dallas Marathon 12/15/2019](https://www.rundallas.com/events/bmw-dallas-marathon-weekend/)
 - [`04:35:55`](https://www.athlinks.com/event/96107/results/event/887431/course/1712925/bib/59820) @ [Bank of America Chicago Marathon 10/13/2019](https://chicagomarathon.com/)
