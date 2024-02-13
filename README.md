@@ -13,6 +13,7 @@ Marathon
 - [`05:44:19`](http://www.geexek.com/score/pscore?cGlkPTUyNzA3ODcmY2lkPTc2MTMmcmlkPTIzMjQzJm5pZ2h0PTAmb3BlbklkPSZ1c2VySWQ9) @ [Dalian International Marathon 05/22/2016](http://www.dlmls.org/)
 
 Half Marathon
+- [`02:17:02`](https://events.hakuapp.com/?registration_number=E6196DBC16) @ [Kaiser Permanente San Francisco Half Marathon 02/04/2024](https://sanfranciscohalfmarathon.org/) (virtual)
 - [`02:40:26`](https://runsignup.com/Race/Results/55369/IndividualResult/HKHJ?resultSetId=431747#U36580675) @ [Brazen New Year's Day Half Marathon 01/01/2024](https://brazenracing.com/newyearsday/)
 - [`02:31:41`](https://runsignup.com/Race/Results/55339/IndividualResult/HKgk?resultSetId=431753#U36580675) @ [Brazen New Year's Eve Half Marathon 12/31/2023](https://brazenracing.com/newyearseve/)
 - [`02:03:51`](https://events.hakuapp.com/?registration_number=EE1AF39AF7&event_option=b7ca85f49c4d7e6f603b) @ [Monterey Bay Half Marathon 11/12/2023](https://www.montereybayhalfmarathon.org/)
