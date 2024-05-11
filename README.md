@@ -4,7 +4,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 
 ## marathon
 
-- [`04:13:04`](https://results.svetiming.com/big-sur/events/2024/big-sur-international-marathon/2020/entrant?share=1) @ `04/28/2024` - [Big Sur International Marathon](https://www.bigsurmarathon.org/) ([strava](https://www.strava.com/activities/11286020700))
+- **[`04:13:04`](https://results.svetiming.com/big-sur/events/2024/big-sur-international-marathon/2020/entrant?share=1) @ `04/28/2024` - [Big Sur International Marathon](https://www.bigsurmarathon.org/) ([strava](https://www.strava.com/activities/11286020700))**
 - [`04:41:12`](https://www.athlinks.com/event/20447/results/Event/898312/Course/1747466/Bib/293) @ `12/15/2019` - [BMW Dallas Marathon](https://www.rundallas.com/events/bmw-dallas-marathon-weekend/) ([strava](https://www.strava.com/activities/10850399377))
 - [`04:35:55`](https://www.athlinks.com/event/96107/results/event/887431/course/1712925/bib/59820) @ `10/13/2019` - [Bank of America Chicago Marathon](https://chicagomarathon.com/) ([strava](https://www.strava.com/activities/10850375599))
 - [`04:29:33`](https://www.athlinks.com/event/1403/results/Event/872627/Course/1654891/Bib/2636) @ `07/28/2019` - [Biofreeze San Francisco Marathon](https://www.thesfmarathon.com/) ([strava](https://www.strava.com/activities/10850321079))
@@ -13,7 +13,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 - [`05:44:19`](http://www.geexek.com/score/pscore?cGlkPTUyNzA3ODcmY2lkPTc2MTMmcmlkPTIzMjQzJm5pZ2h0PTAmb3BlbklkPSZ1c2VySWQ9) @ `05/22/2016` - [Dalian International Marathon](http://www.dlmls.org/) ([strava](https://www.strava.com/activities/10850155155))
 
 ## half marathon
-- [`01:49:20`](https://results.raceroster.com/v2/en-US/results/g4vymgtxe7rbv5aq/detail/3qxtw3bymsy9phbk) @ `04/14/2024` - [Surfer's Path Half Marathon](https://www.runsurferspath.com/surfers-path-half-marathon) ([strava](https://www.strava.com/activities/11182810546))
+- **[`01:49:20`](https://results.raceroster.com/v2/en-US/results/g4vymgtxe7rbv5aq/detail/3qxtw3bymsy9phbk) @ `04/14/2024` - [Surfer's Path Half Marathon](https://www.runsurferspath.com/surfers-path-half-marathon) ([strava](https://www.strava.com/activities/11182810546))**
 - [`01:59:54`](https://runsignup.com/Race/Results/60381/IndividualResult/sZSK#U36580675) @ `03/03/2024` - [Livermore Valley Half Marathon](https://livermorevalleyhalf.com/) ([strava](https://www.strava.com/activities/10883753674))
 - [`02:17:02`](https://events.hakuapp.com/?registration_number=E6196DBC16) @ `02/04/2024` - [Kaiser Permanente San Francisco Half Marathon](https://sanfranciscohalfmarathon.org/) (virtual)
 - [`02:40:26`](https://runsignup.com/Race/Results/55369/IndividualResult/HKHJ?resultSetId=431747#U36580675) @ `01/01/2024` - [Brazen New Year's Day Half Marathon](https://brazenracing.com/newyearsday/) ([strava](https://www.strava.com/activities/10475504579))
