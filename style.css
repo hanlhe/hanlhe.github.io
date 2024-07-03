@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    color: #1a1a1a;
+    background-color: #fdfdfd;
+
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1rem;
+}
+
+p {
+    margin: 1em 0;
+}
+
+a {
+    color: #1a1a1a;
+    background-color: transparent;
+}
+
+a:visited {
+    color: #1a1a1a;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+ol,
+ul {
+    padding-left: 1.7em;
+    margin-top: 1em;
+}
+
+li {
+    margin-top: 0.3em;
+}
+
+code {
+    font-family: 'Fragment Mono', monospace, monospace;
+    font-size: 1em;
+    margin: 0;
+    hyphens: manual;
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+    margin: 1em 0;
+    overflow: auto;
+}
+
+pre code {
+    padding: 0;
+    overflow: visible;
+    overflow-wrap: normal;
+}
+
+.sourceCode {
+    background-color: transparent;
+    overflow: visible;
+}
+
+hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+    background-color: #1a1a1a;
+    border: none;
+    margin: 1em 0;
+}
+
+header {
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+code {
+    white-space: pre-wrap;
+}
+
+span.smallcaps {
+    font-variant: small-caps;
+}
+
+div.columns {
+    display: flex;
+    gap: min(4vw, 1.5em);
+}
+
+div.column {
+    flex: auto;
+    overflow-x: auto;
+}
+
+div.hanging-indent {
+    margin-left: 1.5em;
+    text-indent: -1.5em;
+}
+
+
+/* The followings are from normalize.css */
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
