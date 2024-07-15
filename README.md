@@ -13,6 +13,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 - [`05:44:19`](http://www.geexek.com/score/pscore?cGlkPTUyNzA3ODcmY2lkPTc2MTMmcmlkPTIzMjQzJm5pZ2h0PTAmb3BlbklkPSZ1c2VySWQ9) @ `05/22/2016` - [Dalian International Marathon](http://www.dlmls.org/) ([strava](https://www.strava.com/activities/10850155155))
 
 ## half marathon
+- [`02:41:43`](https://runsignup.com/Race/Results/122354/IndividualResult/qHXx?resultSetId=471921#U36580675) @ `07/13/2024` - [San Lorenzo River Trail Run (Half Marathon)](https://runsignup.com/Race/CA/SantaCruz/SanLorenzoRiverTrailRun) ([strava](https://www.strava.com/activities/11880493713))
 - [`02:01:14`](https://www.athlinks.com/event/129479/results/Event/1080826/Course/2474408/Bib/1066) @ `06/15/2024` - [Rock Tahoe Half Marathon](https://www.rocktahoehalfmarathon.com/) ([strava](https://www.strava.com/activities/11660066897))
 - [`01:55:58`](https://www.athlinks.com/event/5079/results/Event/1082072/Course/2481064/Bib/239) @ `05/26/2024` - [Hibiscus Half Marathon](https://tropicaltriplecrown.com/hibiscus-half-marathon) ([strava](https://www.strava.com/activities/11504523137))
 - [`01:49:20`](https://results.raceroster.com/v2/en-US/results/g4vymgtxe7rbv5aq/detail/3qxtw3bymsy9phbk) @ `04/14/2024` - [Surfer's Path Half Marathon](https://www.runsurferspath.com/surfers-path-half-marathon) ([strava](https://www.strava.com/activities/11182810546)) 🏅
