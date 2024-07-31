@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/go-fonts.css@1.0.2');
 
 html {
     color: #1a1a1a;
@@ -15,7 +15,7 @@ body {
     overflow-wrap: break-word;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Go", sans-serif;
     font-optical-sizing: auto;
     font-size: 1rem;
 }
@@ -59,14 +59,14 @@ li {
 }
 
 code {
-    font-family: 'Fragment Mono', monospace, monospace;
+    font-family: 'Go Mono', monospace, monospace;
     font-size: 1em;
     margin: 0;
     hyphens: manual;
 }
 
 pre {
-    font-family: monospace, monospace;
+    font-family: 'Go Mono', monospace, monospace;
     font-size: 1em;
     margin: 1em 0;
     overflow: auto;
