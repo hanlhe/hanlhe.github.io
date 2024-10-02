@@ -1,8 +1,8 @@
-# _running sets me free._
+# _Running sets me free._
 
 my [running page](https://hanlhe.github.io/running_page/)
 
-## marathon
+## Marathon
 
 - [`04:13:04`](https://results.svetiming.com/big-sur/events/2024/big-sur-international-marathon/2020/entrant?share=1) @ `04/28/2024` - [Big Sur International Marathon](https://www.bigsurmarathon.org/) ([strava](https://www.strava.com/activities/11286020700)) 🏅
 - [`04:41:12`](https://www.athlinks.com/event/20447/results/Event/898312/Course/1747466/Bib/293) @ `12/15/2019` - [BMW Dallas Marathon](https://www.rundallas.com/events/bmw-dallas-marathon-weekend/) ([strava](https://www.strava.com/activities/10850399377))
@@ -12,7 +12,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 - [`05:27:00`](https://www.athlinks.com/event/20447/results/Event/696876/Course/1135965/Bib/2296) @ `12/10/2017` - [BMW Dallas Marathon](https://www.rundallas.com/events/bmw-dallas-marathon-weekend/) ([strava](https://www.strava.com/activities/10850167421))
 - [`05:44:19`](http://www.geexek.com/score/pscore?cGlkPTUyNzA3ODcmY2lkPTc2MTMmcmlkPTIzMjQzJm5pZ2h0PTAmb3BlbklkPSZ1c2VySWQ9) @ `05/22/2016` - [Dalian International Marathon](http://www.dlmls.org/) ([strava](https://www.strava.com/activities/10850155155))
 
-## half marathon
+## Half Marathon
 - [`03:06:15`](https://race.spartan.com/en/race/past-results/8175) @ `09/29/2024` - [Spartan Trail San Jose Challenge (Half Marathon)](https://www.spartantrail.com/san-jose/) ([strava](https://www.strava.com/activities/12535960720))
 - [`02:20:55`](https://runsignup.com/Race/Results/114709/IndividualResult/gqkK?resultSetId=478187#U36580675) @ `08/10/2024` - [Redwood (Summer) Trail Run (Half Marathon)](https://runsignup.com/Race/CA/Oakland/RedwoodSummerTrailRun) ([strava](https://www.strava.com/activities/12114324441))
 - [`02:41:43`](https://runsignup.com/Race/Results/122354/IndividualResult/qHXx?resultSetId=471921#U36580675) @ `07/13/2024` - [San Lorenzo River Trail Run (Half Marathon)](https://runsignup.com/Race/CA/SantaCruz/SanLorenzoRiverTrailRun) ([strava](https://www.strava.com/activities/11880493713))
@@ -32,7 +32,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 - [`02:29:51`](https://www.athlinks.com/event/35571/results/Event/741490/Course/1235346/Bib/1491) @ `09/15/2018` - [Tour des Fleurs Half Marathon](https://www.tourdesfleurs.com/) ([strava](https://www.strava.com/activities/11184706046))
 - [`02:14:58`](https://www.athlinks.com/event/235654/results/Event/722926/Course/1187930/Bib/2551) @ `04/15/2018` - [Silicon Valley Half Marathon](http://svhalfmarathon.com/) ([strava](https://www.strava.com/activities/10850184897))
 
-## misc
+## Misc
 - [`00:50:27`](https://results.raceroster.com/v2/en-US/results/v3qgveae4g2xa4ct/detail/kpy4jmzfsrjuxucn) @ `06/29/2024` - [San Francisco Pride Run 2024](https://sffr.org/content.aspx?page_id=22&club_id=801899&module_id=481274) 🏳️‍🌈
 - [`01:15:38`](https://www.athlinks.com/event/19807/results/Event/711028/Course/1162494/Bib/2404) @ `06/10/2018` - [Across the Bay 12K & 415K](http://www.representrunning.com/across-bay-12k-415k/)
 - [`00:47:17`](https://www.athlinks.com/event/19352/results/Event/840700/Course/1522884/Bib/2151) @ `02/03/2019` - [San Jose 408K Race to the Row](http://run408k.com/)
