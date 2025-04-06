@@ -32,7 +32,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 
 ## Trail Half Marathon
 
-- [`02:47:26`](https://runsignup.com/Race/Results/60414/IndividualResult/pkdS?resultSetId=538964#U100240113) @ `04/05/2025` - [Diablo Trails Challenge, a USATF Pacific MUT Grand Prix](https://brazenracing.com/diablotrailschallenge/) ([strava](https://www.strava.com/activities/14091359388))
+- [`02:47:54`](https://runsignup.com/Race/Results/60414/IndividualResult/pkdS?resultSetId=538964#U100240113) @ `04/05/2025` - [Diablo Trails Challenge, a USATF Pacific MUT Grand Prix](https://brazenracing.com/diablotrailschallenge/) ([strava](https://www.strava.com/activities/14091359388))
 - [`03:06:15`](https://race.spartan.com/en/race/past-results/8175) @ `09/29/2024` - [Spartan Trail San Jose Challenge](https://www.spartantrail.com/san-jose/) ([strava](https://www.strava.com/activities/12535960720))
 - [`02:20:55`](https://runsignup.com/Race/Results/114709/IndividualResult/gqkK?resultSetId=478187#U36580675) @ `08/10/2024` - [Redwood (Summer) Trail Run](https://runsignup.com/Race/CA/Oakland/RedwoodSummerTrailRun) ([strava](https://www.strava.com/activities/12114324441)) 🏅
 - [`02:41:43`](https://runsignup.com/Race/Results/122354/IndividualResult/qHXx?resultSetId=471921#U36580675) @ `07/13/2024` - [San Lorenzo River Trail Run](https://runsignup.com/Race/CA/SantaCruz/SanLorenzoRiverTrailRun) ([strava](https://www.strava.com/activities/11880493713))
