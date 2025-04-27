@@ -4,7 +4,8 @@ my [running page](https://hanlhe.github.io/running_page/)
 
 ## Marathon
 
-- `03:58:00` @ `10/20/2024` - [Tianjin Marathon](http://www.tianjin-marathon.com/) ([strava](https://www.strava.com/activities/12697561763)) 🏅
+- [`03:55:26`](https://results.svetiming.com/big-sur/events/2025/big-sur-international-marathon/1473/entrant?share=1) @ `04/27/2025` - [Big Sur International Marathon](https://www.bigsurmarathon.org/) ([strava](https://www.strava.com/activities/14305485101)) 🏅
+- `03:58:00` @ `10/20/2024` - [Tianjin Marathon](http://www.tianjin-marathon.com/) ([strava](https://www.strava.com/activities/12697561763))
 - [`04:13:04`](https://results.svetiming.com/big-sur/events/2024/big-sur-international-marathon/2020/entrant?share=1) @ `04/28/2024` - [Big Sur International Marathon](https://www.bigsurmarathon.org/) ([strava](https://www.strava.com/activities/11286020700))
 - [`04:41:12`](https://www.athlinks.com/event/20447/results/Event/898312/Course/1747466/Bib/293) @ `12/15/2019` - [BMW Dallas Marathon](https://www.rundallas.com/events/bmw-dallas-marathon-weekend/) ([strava](https://www.strava.com/activities/10850399377))
 - [`04:35:55`](https://www.athlinks.com/event/96107/results/event/887431/course/1712925/bib/59820) @ `10/13/2019` - [Bank of America Chicago Marathon](https://chicagomarathon.com/) ([strava](https://www.strava.com/activities/10850375599))
