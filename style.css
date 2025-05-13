@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&family=Ysabeau+SC:wght@1..1000&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@joshuasu/lxgwbright-code-web@2.711.0/style.min.css');
+
 html {
     color: #1a1a1a;
     background-color: #fdfdfd;
@@ -14,7 +16,7 @@ body {
     overflow-wrap: break-word;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
-    font-family: "Ysabeau Office", sans-serif;
+    font-family: "Ysabeau Office", "LXGW Bright Code Light", sans-serif;
     font-optical-sizing: auto;
     font-size: 1.2rem;
 }

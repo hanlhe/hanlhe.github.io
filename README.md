@@ -5,14 +5,14 @@ my [running page](https://hanlhe.github.io/running_page/)
 ## Marathon
 
 - [`03:55:26`](https://results.svetiming.com/big-sur/events/2025/big-sur-international-marathon/1473/entrant?share=1) @ `04/27/2025` - [Big Sur International Marathon](https://www.bigsurmarathon.org/) ([strava](https://www.strava.com/activities/14305485101)) 🏅
-- `03:58:00` @ `10/20/2024` - [Tianjin Marathon](http://www.tianjin-marathon.com/) ([strava](https://www.strava.com/activities/12697561763))
+- `03:58:00` @ `10/20/2024` - [Tianjin Marathon | 天津马拉松](http://www.tianjin-marathon.com/) ([strava](https://www.strava.com/activities/12697561763))
 - [`04:13:04`](https://results.svetiming.com/big-sur/events/2024/big-sur-international-marathon/2020/entrant?share=1) @ `04/28/2024` - [Big Sur International Marathon](https://www.bigsurmarathon.org/) ([strava](https://www.strava.com/activities/11286020700))
 - [`04:41:12`](https://www.athlinks.com/event/20447/results/Event/898312/Course/1747466/Bib/293) @ `12/15/2019` - [BMW Dallas Marathon](https://www.rundallas.com/events/bmw-dallas-marathon-weekend/) ([strava](https://www.strava.com/activities/10850399377))
 - [`04:35:55`](https://www.athlinks.com/event/96107/results/event/887431/course/1712925/bib/59820) @ `10/13/2019` - [Bank of America Chicago Marathon](https://chicagomarathon.com/) ([strava](https://www.strava.com/activities/10850375599))
 - [`04:29:33`](https://www.athlinks.com/event/1403/results/Event/872627/Course/1654891/Bib/2636) @ `07/28/2019` - [Biofreeze San Francisco Marathon](https://www.thesfmarathon.com/) ([strava](https://www.strava.com/activities/10850321079))
 - [`05:16:40`](https://www.athlinks.com/event/20447/results/Event/701326/Course/1141975/Bib/183) @ `12/09/2018` - [BMW Dallas Marathon](https://www.rundallas.com/events/bmw-dallas-marathon-weekend/) ([strava](https://www.strava.com/activities/10850199860))
 - [`05:27:00`](https://www.athlinks.com/event/20447/results/Event/696876/Course/1135965/Bib/2296) @ `12/10/2017` - [BMW Dallas Marathon](https://www.rundallas.com/events/bmw-dallas-marathon-weekend/) ([strava](https://www.strava.com/activities/10850167421))
-- [`05:44:19`](http://www.geexek.com/score/pscore?cGlkPTUyNzA3ODcmY2lkPTc2MTMmcmlkPTIzMjQzJm5pZ2h0PTAmb3BlbklkPSZ1c2VySWQ9) @ `05/22/2016` - [Dalian International Marathon](http://www.dlmls.org/) ([strava](https://www.strava.com/activities/10850155155))
+- [`05:44:19`](http://www.geexek.com/score/pscore?cGlkPTUyNzA3ODcmY2lkPTc2MTMmcmlkPTIzMjQzJm5pZ2h0PTAmb3BlbklkPSZ1c2VySWQ9) @ `05/22/2016` - [Dalian International Marathon | 大连国际马拉松](http://www.dlmls.org/) ([strava](https://www.strava.com/activities/10850155155))
 
 ## Half Marathon
 
