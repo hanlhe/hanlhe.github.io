@@ -16,6 +16,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 
 ## Half Marathon
 
+- [`01:57:03`](https://runsignup.com/Race/Results/97495/IndividualResult/cDGg?resultSetId=560114#U36580675) @ `06/21/2025` - [Anchorage Mayor's Half Marathon 2025](https://www.anchoragemayorsmarathon.com/) ([strava](https://www.strava.com/activities/14873620632))
 - [`01:49:28`](https://runsignup.com/Race/Results/60381/IndividualResult/zxsq?resultSetId=531112#U98911370) @ `03/02/2025` - [Livermore Valley Half Marathon](https://livermorevalleyhalf.com/) ([strava](https://www.strava.com/activities/13772167812)) 🏅
 - [`01:52:14`](https://results.svetiming.com/pamakid/events/2025/san-francisco-half-marathon-10k--5k/3445/entrant?share=1) @ `02/02/2025` - [San Francisco Half Marathon®](https://sanfranciscohalfmarathon.org/) ([strava](https://www.strava.com/activities/13523265988))
 - [`02:01:14`](https://www.athlinks.com/event/129479/results/Event/1080826/Course/2474408/Bib/1066) @ `06/15/2024` - [Rock Tahoe Half Marathon](https://www.rocktahoehalfmarathon.com/) ([strava](https://www.strava.com/activities/11660066897))
@@ -43,7 +44,8 @@ my [running page](https://hanlhe.github.io/running_page/)
 
 ## Misc
 
-- [`00:50:27`](https://results.raceroster.com/v2/en-US/results/v3qgveae4g2xa4ct/detail/kpy4jmzfsrjuxucn) @ `06/29/2024` - [San Francisco Pride Run 2024](https://sffr.org/content.aspx?page_id=22&club_id=801899&module_id=481274) 🏳️‍🌈
+- [`00:47:51`](https://results.raceroster.com/v2/en-US/results/z2953ucxj9s9zk44/detail/deq765vy6uttvd3e) @ `06/28/2025` - [San Francisco Pride Run 2025](https://www.sffr.org/priderun) 🏳️‍🌈
+- [`00:50:27`](https://results.raceroster.com/v2/en-US/results/v3qgveae4g2xa4ct/detail/kpy4jmzfsrjuxucn) @ `06/29/2024` - [San Francisco Pride Run 2024](https://www.sffr.org/priderun) 🏳️‍🌈
 - [`01:09:59`](https://www.athlinks.com/event/19807/results/Event/869327/Course/1642781/Bib/3122) @ `07/14/2019` - [Across the Bay 12K & 415K](http://www.representrunning.com/across-bay-12k-415k/)
 - [`00:55:26`](https://www.athlinks.com/event/311027/results/Event/847184/Course/1554401/Bib/336) @ `03/17/2019` - [San Jose Shamrock Run](http://sanjoseshamrockrun.com/) ☘️
 - [`00:47:17`](https://www.athlinks.com/event/19352/results/Event/840700/Course/1522884/Bib/2151) @ `02/03/2019` - [San Jose 408K Race to the Row](http://run408k.com/)
