@@ -4,6 +4,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 
 ## Marathon
 
+- `04:17:09` @ `08/31/2025` - [Kauaʻi Marathon](https://thekauaimarathon.com/) ([strava](https://www.strava.com/activities/15653654664)) 🌺
 - [`03:55:26`](https://results.svetiming.com/big-sur/events/2025/big-sur-international-marathon/1473/entrant?share=1) @ `04/27/2025` - [Big Sur International Marathon](https://www.bigsurmarathon.org/) ([strava](https://www.strava.com/activities/14305485101)) 🏅
 - `03:58:00` @ `10/20/2024` - [Tianjin Marathon | 天津马拉松](http://www.tianjin-marathon.com/) ([strava](https://www.strava.com/activities/12697561763))
 - [`04:13:04`](https://results.svetiming.com/big-sur/events/2024/big-sur-international-marathon/2020/entrant?share=1) @ `04/28/2024` - [Big Sur International Marathon](https://www.bigsurmarathon.org/) ([strava](https://www.strava.com/activities/11286020700))
