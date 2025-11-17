@@ -44,7 +44,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 - [`02:31:41`](https://runsignup.com/Race/Results/55339/IndividualResult/HKgk?resultSetId=431753#U36580675) @ `12/31/2023` - [Brazen New Year's Eve Half Marathon](https://brazenracing.com/newyearseve/) ([strava](https://www.strava.com/activities/10470124071))
 - [`03:07:02`](https://www.athlinks.com/event/43012/results/event/862372/course/1613888/bib/851) @ `06/02/2019` - [Trailquake Half Marathon](https://brazenracing.com/trailquake/) ([strava](https://www.strava.com/activities/10850310278))
 
-## Misc
+## Miscellaneous
 
 - [`00:47:51`](https://results.raceroster.com/v2/en-US/results/z2953ucxj9s9zk44/detail/deq765vy6uttvd3e) @ `06/28/2025` - [San Francisco Pride Run 2025](https://www.sffr.org/priderun) 🏳️‍🌈
 - [`00:50:27`](https://results.raceroster.com/v2/en-US/results/v3qgveae4g2xa4ct/detail/kpy4jmzfsrjuxucn) @ `06/29/2024` - [San Francisco Pride Run 2024](https://www.sffr.org/priderun) 🏳️‍🌈
