@@ -4,9 +4,9 @@ on:
   push:
     paths:
       - "README.md"
-      - "template.html"
-      - "style.css"
-      - "build-meta.js"
+      - "src/template.html"
+      - "assets/style.css"
+      - "scripts/build-meta.js"
       - ".github/workflows/update-html.yml"
 
 jobs:
