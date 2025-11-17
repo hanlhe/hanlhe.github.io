@@ -4,7 +4,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 
 ## Marathon
 
-- [`03:42:41`](https://runsignup.com/Race/Results/53399/IndividualResult/hPGM?resultSetId=607910#U36580675) @ `11/15/2025` - [Allianz Richmond Marathon](https://www.richmondmarathon.org/) ([strava](https://www.strava.com/activities/16466549320)) 🏅
+- [`03:42:41`](https://runsignup.com/Race/Results/53399/IndividualResult/hPGM?resultSetId=607910#U36580675) @ `11/15/2025` - [Allianz Richmond Marathon](https://www.richmondmarathon.org/) ([strava](https://www.strava.com/activities/16466549320)) 🏛️
 - [`04:17:09`](https://my2.raceresult.com/356181/certificate/128/All%20Certificates) @ `08/31/2025` - [Kauaʻi Marathon](https://thekauaimarathon.com/) ([strava](https://www.strava.com/activities/15653654664)) 🌺
 - [`03:55:26`](https://results.svetiming.com/big-sur/events/2025/big-sur-international-marathon/1473/entrant?share=1) @ `04/27/2025` - [Big Sur International Marathon](https://www.bigsurmarathon.org/) ([strava](https://www.strava.com/activities/14305485101)) 🌊
 - `03:58:00` @ `10/20/2024` - [Tianjin Marathon | 天津马拉松](http://www.tianjin-marathon.com/) ([strava](https://www.strava.com/activities/12697561763)) 🎡
@@ -18,7 +18,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 
 ## Half Marathon
 
-- [`01:43:55`](https://my4.raceresult.com/364607/certificate/1278/Finisher%20Certificate) @ `10/19/2025` - [Columbia Gorge Half Marathon](https://www.columbiagorgemarathon.com/) ([strava](https://www.strava.com/activities/16194636937)) 🍁🏅
+- [`01:43:55`](https://my4.raceresult.com/364607/certificate/1278/Finisher%20Certificate) @ `10/19/2025` - [Columbia Gorge Half Marathon](https://www.columbiagorgemarathon.com/) ([strava](https://www.strava.com/activities/16194636937)) 🍁
 - [`01:57:03`](https://runsignup.com/Race/Results/97495/IndividualResult/cDGg?resultSetId=560114#U36580675) @ `06/21/2025` - [Anchorage Mayor's Half Marathon 2025](https://www.anchoragemayorsmarathon.com/) ([strava](https://www.strava.com/activities/14873620632)) 🐻
 - [`01:49:28`](https://runsignup.com/Race/Results/60381/IndividualResult/zxsq?resultSetId=531112#U98911370) @ `03/02/2025` - [Livermore Valley Half Marathon](https://livermorevalleyhalf.com/) ([strava](https://www.strava.com/activities/13772167812)) 🥂
 - [`01:52:14`](https://results.svetiming.com/pamakid/events/2025/san-francisco-half-marathon-10k--5k/3445/entrant?share=1) @ `02/02/2025` - [San Francisco Half Marathon®](https://sanfranciscohalfmarathon.org/) ([strava](https://www.strava.com/activities/13523265988)) 🌉
@@ -38,7 +38,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 
 - [`02:47:54`](https://runsignup.com/Race/Results/60414/IndividualResult/pkdS?resultSetId=538964#U100240113) @ `04/05/2025` - [Diablo Trails Challenge, a USATF Pacific MUT Grand Prix](https://brazenracing.com/diablotrailschallenge/) ([strava](https://www.strava.com/activities/14091359388))
 - [`03:06:15`](https://race.spartan.com/en/race/past-results/8175) @ `09/29/2024` - [Spartan Trail San Jose Challenge](https://www.spartantrail.com/san-jose/) ([strava](https://www.strava.com/activities/12535960720))
-- [`02:20:55`](https://runsignup.com/Race/Results/114709/IndividualResult/gqkK?resultSetId=478187#U36580675) @ `08/10/2024` - [Redwood (Summer) Trail Run](https://runsignup.com/Race/CA/Oakland/RedwoodSummerTrailRun) ([strava](https://www.strava.com/activities/12114324441)) 🏅
+- [`02:20:55`](https://runsignup.com/Race/Results/114709/IndividualResult/gqkK?resultSetId=478187#U36580675) @ `08/10/2024` - [Redwood (Summer) Trail Run](https://runsignup.com/Race/CA/Oakland/RedwoodSummerTrailRun) ([strava](https://www.strava.com/activities/12114324441))
 - [`02:41:43`](https://runsignup.com/Race/Results/122354/IndividualResult/qHXx?resultSetId=471921#U36580675) @ `07/13/2024` - [San Lorenzo River Trail Run](https://runsignup.com/Race/CA/SantaCruz/SanLorenzoRiverTrailRun) ([strava](https://www.strava.com/activities/11880493713))
 - [`02:40:26`](https://runsignup.com/Race/Results/55369/IndividualResult/HKHJ?resultSetId=431747#U36580675) @ `01/01/2024` - [Brazen New Year's Day Half Marathon](https://brazenracing.com/newyearsday/) ([strava](https://www.strava.com/activities/10475504579))
 - [`02:31:41`](https://runsignup.com/Race/Results/55339/IndividualResult/HKgk?resultSetId=431753#U36580675) @ `12/31/2023` - [Brazen New Year's Eve Half Marathon](https://brazenracing.com/newyearseve/) ([strava](https://www.strava.com/activities/10470124071))

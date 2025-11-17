@@ -1,37 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&family=Ysabeau+SC:wght@1..1000&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/@joshuasu/lxgwbright-code-web@2.711.0/style.min.css');
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&family=Ysabeau+SC:wght@1..1000&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/@joshuasu/lxgwbright-code-web@2.711.0/style.min.css");
+
+/* CSS Variables for theming */
+:root {
+  --text-color: #1a1a1a;
+  --bg-color: #fdfdfd;
+  --link-underline: rgba(26, 26, 26, 0.4);
+  --link-underline-hover: rgba(26, 26, 26, 0.8);
+  --pr-line-bg: rgba(26, 26, 26, 0.03);
+  --pr-line-glow: rgba(26, 26, 26, 0.15);
+  --stats-bg: rgba(26, 26, 26, 0.05);
+  --hr-color: #1a1a1a;
+  --skip-link-bg: #1a1a1a;
+  --skip-link-text: #fdfdfd;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #e0e0e0;
+    --bg-color: #1a1a1a;
+    --link-underline: rgba(224, 224, 224, 0.5);
+    --link-underline-hover: rgba(224, 224, 224, 0.8);
+    --pr-line-bg: rgba(224, 224, 224, 0.08);
+    --pr-line-glow: rgba(100, 200, 255, 0.3);
+    --stats-bg: rgba(224, 224, 224, 0.1);
+    --hr-color: #e0e0e0;
+    --skip-link-bg: #e0e0e0;
+    --skip-link-text: #1a1a1a;
+  }
+}
 
 html {
-    color: #1a1a1a;
-    background-color: #fdfdfd;
-
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-    margin: 0 auto;
-    max-width: 60em;
-    hyphens: auto;
-    overflow-wrap: break-word;
-    text-rendering: optimizeLegibility;
-    font-kerning: normal;
-    font-family: "Ysabeau Office", "LXGW Bright Code Light", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 1.2rem;
+  margin: 0 auto;
+  max-width: 60em;
+  padding: 1em;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-family: "Ysabeau Office", "LXGW Bright Code Light", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem;
+    padding: 0.5em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.5em;
+  }
+
+  li {
+    margin: 0.2em 0;
+    padding: 0.1em 0;
+  }
+
+  ul {
+    padding-left: 1.2em;
+  }
 }
 
 p {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 
 a {
-    color: #1a1a1a;
-    background-color: transparent;
+  color: var(--text-color);
+  background-color: transparent;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+/* Underline only for links in paragraphs (like "my running page") */
+p a {
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+  text-underline-offset: 0.15em;
+  transition:
+    opacity 0.2s ease,
+    text-decoration-color 0.2s ease;
+}
+
+p a:hover {
+  opacity: 0.8;
+  text-decoration-color: var(--link-underline-hover);
+}
+
+/* No underline for links in list items */
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
 }
 
 a:visited {
-    color: #1a1a1a;
+  color: var(--text-color);
 }
 
 b,
@@ -45,87 +133,282 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Ysabeau SC", serif;
-    font-size: 2em;
-    margin: 0.67em 0;
+  font-family: "Ysabeau SC", serif;
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 ol,
 ul {
-    padding-left: 1.7em;
-    margin-top: 1em;
+  padding-left: 1.7em;
+  margin-top: 1em;
 }
 
 li {
-    margin: 0.5em;
+  margin: 0.2em 0;
+  padding: 0.1em 0;
+  line-height: 1.5;
 }
 
 code {
-    font-family: 'Ysabeau Office', monospace, monospace;
-    font-size: 1em;
-    margin: 0;
-    hyphens: manual;
+  font-family: "Ysabeau Office", monospace, monospace;
+  font-size: 1em;
+  margin: 0;
+  hyphens: manual;
+  white-space: pre-wrap;
+}
+
+/* Race times styling */
+li > code:first-child,
+li > a > code:first-child {
+  color: var(--text-color);
+  background-color: transparent;
 }
 
 pre {
-    font-family: 'Ysabeau Office', monospace, monospace;
-    font-size: 1em;
-    margin: 1em 0;
-    overflow: auto;
+  font-family: "Ysabeau Office", monospace, monospace;
+  font-size: 1em;
+  margin: 1em 0;
+  overflow: auto;
 }
 
 pre code {
-    padding: 0;
-    overflow: visible;
-    overflow-wrap: normal;
+  padding: 0;
+  overflow: visible;
+  overflow-wrap: normal;
 }
 
 .sourceCode {
-    background-color: transparent;
-    overflow: visible;
+  background-color: transparent;
+  overflow: visible;
 }
 
 hr {
-    box-sizing: content-box; /* 1 */
-    height: 0; /* 1 */
-    overflow: visible; /* 2 */
-    background-color: #1a1a1a;
-    border: none;
-    margin: 1em 0;
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+  background-color: var(--hr-color);
+  border: none;
+  margin: 1em 0;
 }
 
 header {
-    margin-bottom: 4em;
-    text-align: center;
-}
-
-code {
-    white-space: pre-wrap;
+  margin-bottom: 4em;
+  text-align: center;
 }
 
 span.smallcaps {
-    font-variant: small-caps;
+  font-variant: small-caps;
 }
 
 div.columns {
-    display: flex;
-    gap: min(4vw, 1.5em);
+  display: flex;
+  gap: min(4vw, 1.5em);
 }
 
 div.column {
-    flex: auto;
-    overflow-x: auto;
+  flex: auto;
+  overflow-x: auto;
 }
 
 div.hanging-indent {
-    margin-left: 1.5em;
-    text-indent: -1.5em;
+  margin-left: 1.5em;
+  text-indent: -1.5em;
 }
 
+/* PR line visual effects - vertical bar and neon glow */
+li.pr-line {
+  position: relative;
+}
+
+/* Vertical bar - appears in both light and dark mode */
+li.pr-line::before {
+  content: "";
+  position: absolute;
+  left: -1.7em;
+  top: 0.2em;
+  bottom: 0.2em;
+  width: 4px;
+  border-radius: 2px;
+  transition:
+    width 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+li.pr-line:hover::before {
+  width: 5px;
+}
+
+/* Dark mode: purple to cyan gradient with glow (complements blue text neon) */
+@media (prefers-color-scheme: dark) {
+  li.pr-line::before {
+    background: linear-gradient(to bottom, #a855f7, #06b6d4);
+    box-shadow:
+      0 0 6px rgba(168, 85, 247, 0.6),
+      0 0 12px rgba(6, 182, 212, 0.4);
+  }
+
+  li.pr-line:hover::before {
+    box-shadow:
+      0 0 10px rgba(168, 85, 247, 0.8),
+      0 0 20px rgba(6, 182, 212, 0.6);
+  }
+
+  /* Neon glow effect on text in dark mode */
+  li.pr-line > code:first-child,
+  li.pr-line > a > code:first-child,
+  li.pr-line code,
+  li.pr-line a,
+  li.pr-line a:visited {
+    text-shadow:
+      0 0 8px rgba(100, 200, 255, 0.8),
+      0 0 15px rgba(100, 200, 255, 0.5),
+      0 0 25px rgba(100, 200, 255, 0.3);
+    transition: text-shadow 0.3s ease;
+  }
+
+  li.pr-line:hover > code:first-child,
+  li.pr-line:hover > a > code:first-child,
+  li.pr-line:hover code,
+  li.pr-line:hover a,
+  li.pr-line:hover a:visited {
+    text-shadow:
+      0 0 10px rgba(100, 200, 255, 1),
+      0 0 20px rgba(100, 200, 255, 0.7),
+      0 0 30px rgba(100, 200, 255, 0.4);
+  }
+}
+
+/* Light mode: colorful vertical bar with soft gray glow */
+@media (prefers-color-scheme: light) {
+  li.pr-line::before {
+    background: linear-gradient(to bottom, #ff6b6b, #4ecdc4);
+    box-shadow: 0 0 4px rgba(255, 107, 107, 0.4);
+  }
+
+  li.pr-line:hover::before {
+    box-shadow: 0 0 8px rgba(255, 107, 107, 0.6);
+  }
+
+  /* Soft gray subtle highlight effect in light mode - minimalistic */
+  li.pr-line > code:first-child,
+  li.pr-line > a > code:first-child,
+  li.pr-line code,
+  li.pr-line a,
+  li.pr-line a:visited {
+    text-shadow:
+      0 1px 2px rgba(0, 0, 0, 0.1),
+      0 0 4px rgba(230, 230, 230, 0.6),
+      0 0 8px rgba(230, 230, 230, 0.4),
+      0 0 12px rgba(230, 230, 230, 0.3);
+    transition: text-shadow 0.3s ease;
+  }
+
+  li.pr-line:hover > code:first-child,
+  li.pr-line:hover > a > code:first-child,
+  li.pr-line:hover code,
+  li.pr-line:hover a,
+  li.pr-line:hover a:visited {
+    text-shadow:
+      0 1px 3px rgba(0, 0, 0, 0.15),
+      0 0 6px rgba(230, 230, 230, 0.7),
+      0 0 12px rgba(230, 230, 230, 0.5),
+      0 0 18px rgba(230, 230, 230, 0.4);
+  }
+}
+
+/* Summary statistics styling */
+.stats-summary {
+  background-color: var(--stats-bg);
+  padding: 1em;
+  border-radius: 0.5em;
+  margin: 2em 0;
+  font-size: 0.9em;
+}
+
+.stats-summary h3 {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1em;
+  margin-top: 0.5em;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-label {
+  font-size: 0.85em;
+  opacity: 0.7;
+  margin-bottom: 0.2em;
+}
+
+.stat-value {
+  font-size: 1.3em;
+  font-weight: 600;
+  font-family: "Ysabeau SC", serif;
+}
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--skip-link-bg);
+  color: var(--skip-link-text);
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Print styles */
+@media print {
+  body {
+    max-width: 100%;
+    padding: 0;
+    font-size: 10pt;
+  }
+
+  .stats-summary {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  li.pr-line::before {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Force light mode for printing */
+  :root {
+    --text-color: #1a1a1a;
+    --bg-color: #ffffff;
+  }
+
+  @page {
+    margin: 1cm;
+  }
+}
 
 /* The followings are from normalize.css */
-
-html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-  }
