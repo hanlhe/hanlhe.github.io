@@ -1,0 +1,57 @@
+name: Build static index.html
+
+on:
+  push:
+    paths:
+      - "README.md"
+      - "template.html"
+      - "style.css"
+      - "build-meta.js"
+      - ".github/workflows/update-html.yml"
+
+jobs:
+  build-and-commit:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Install pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
+      - name: Cache node_modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install JS dependencies (jsdom + prettier)
+        run: |
+          npm ci
+
+      - name: Build index.html
+        run: |
+          make
+
+      - name: Commit and push changes (if any)
+        run: |
+          if ! git diff --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add index.html
+            git commit -m "chore: rebuild index.html [skip ci]"
+            git push
+          fi
