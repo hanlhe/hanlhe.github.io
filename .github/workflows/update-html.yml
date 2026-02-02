@@ -46,7 +46,7 @@ jobs:
 
       - name: Build index.html
         run: |
-          make
+          make -B
 
       - name: Commit and push changes (if any)
         run: |
