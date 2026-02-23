@@ -8,7 +8,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 
 ## Marathon
 
-- [`03:59:00`](https://runnet.jp/record/record.do?raceId=378280&numberCard=52492) @ `02/22/2026` - [大阪マラソン | Osaka Marathon](https://www.osaka-marathon.com/) ([strava](https://www.strava.com/activities/16466549320)) 🏯
+- [`03:59:00`](https://runnet.jp/record/record.do?raceId=378280&numberCard=52492) @ `02/22/2026` - [大阪マラソン | Osaka Marathon](https://www.osaka-marathon.com/) ([strava](https://www.strava.com/activities/17479272012)) 🏯
 - [`03:42:41`](https://runsignup.com/Race/Results/53399/IndividualResult/hPGM?resultSetId=607910#U36580675) @ `11/15/2025` - [Allianz Richmond Marathon](https://www.richmondmarathon.org/) ([strava](https://www.strava.com/activities/16466549320)) 🏛️
 - [`04:17:09`](https://my2.raceresult.com/356181/certificate/128/All%20Certificates) @ `08/31/2025` - [Kauaʻi Marathon](https://thekauaimarathon.com/) ([strava](https://www.strava.com/activities/15653654664)) 🌺
 - [`03:55:26`](https://results.svetiming.com/big-sur/events/2025/big-sur-international-marathon/1473/entrant?share=1) @ `04/27/2025` - [Big Sur International Marathon](https://www.bigsurmarathon.org/) ([strava](https://www.strava.com/activities/14305485101)) 🌊
