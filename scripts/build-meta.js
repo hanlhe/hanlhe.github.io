@@ -36,13 +36,11 @@ function main() {
   const categories = [
     { id: "marathon", key: "marathons" },
     { id: "half-marathon", key: "halfMarathons" },
-    { id: "trail-half-marathon", key: "trailHalfMarathons" },
   ];
 
   const stats = {
     marathons: 0,
     halfMarathons: 0,
-    trailHalfMarathons: 0,
     totalRaces: 0,
   };
 
@@ -81,8 +79,7 @@ function main() {
     }
   }
 
-  stats.totalRaces =
-    stats.marathons + stats.halfMarathons + stats.trailHalfMarathons;
+  stats.totalRaces = stats.marathons + stats.halfMarathons;
 
   // Inject summary after the first paragraph following the h1
   const firstP = document.querySelector("h1 + p");
@@ -93,7 +90,7 @@ function main() {
       <h3>Race Statistics</h3>
       <div class="stats-grid">
         <div class="stat-item">
-          <span class="stat-label">Marathon & Half Marathon Races</span>
+          <span class="stat-label">Total Races</span>
           <span class="stat-value">${stats.totalRaces}</span>
         </div>
         <div class="stat-item">
@@ -103,10 +100,6 @@ function main() {
         <div class="stat-item">
           <span class="stat-label">Half Marathons</span>
           <span class="stat-value">${stats.halfMarathons}</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-label">Trail Half</span>
-          <span class="stat-value">${stats.trailHalfMarathons}</span>
         </div>
       </div>
     `;
