@@ -23,6 +23,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 
 ## Half Marathon
 
+- [`01:57:24`](https://runsignup.com/Race/Results/116383/IndividualResult/pdBN?resultSetId=649761#U36580675) @ `05/16/2026` - [La Jolla Half Marathon](https://lajollahalfmarathon.com/) ([strava](https://www.strava.com/activities/18531761206)) 🏖️
 - [`01:43:55`](https://my4.raceresult.com/364607/certificate/1278/Finisher%20Certificate) @ `10/19/2025` - [Columbia Gorge Half Marathon](https://www.columbiagorgemarathon.com/) ([strava](https://www.strava.com/activities/16194636937)) 🍁
 - [`01:57:03`](https://runsignup.com/Race/Results/97495/IndividualResult/cDGg?resultSetId=560114#U36580675) @ `06/21/2025` - [Anchorage Mayor's Half Marathon 2025](https://www.anchoragemayorsmarathon.com/) ([strava](https://www.strava.com/activities/14873620632)) 🐻
 - [`02:47:54`](https://runsignup.com/Race/Results/60414/IndividualResult/pkdS?resultSetId=538964#U100240113) @ `04/05/2025` - [Diablo Trails Challenge, a USATF Pacific MUT Grand Prix](https://brazenracing.com/diablotrailschallenge/) ([strava](https://www.strava.com/activities/14091359388)) 🏔️
