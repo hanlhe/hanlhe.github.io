@@ -49,6 +49,7 @@ my [running page](https://hanlhe.github.io/running_page/)
 
 ## Miscellaneous
 
+- [`00:48:38`](https://results.raceroster.com/v3/events/adxpx7qppq2jppha/race/298384/participant/m4c6wfwpasgk2e3k) @ `06/27/2026` - [San Francisco Pride Run 2026](https://www.sffr.org/priderun) 🏳️‍🌈
 - [`00:47:51`](https://results.raceroster.com/v2/en-US/results/z2953ucxj9s9zk44/detail/deq765vy6uttvd3e) @ `06/28/2025` - [San Francisco Pride Run 2025](https://www.sffr.org/priderun) 🏳️‍🌈
 - [`00:50:27`](https://results.raceroster.com/v2/en-US/results/v3qgveae4g2xa4ct/detail/kpy4jmzfsrjuxucn) @ `06/29/2024` - [San Francisco Pride Run 2024](https://www.sffr.org/priderun) 🏳️‍🌈
 - [`01:09:59`](https://www.athlinks.com/event/19807/results/Event/869327/Course/1642781/Bib/3122) @ `07/14/2019` - [Across the Bay 12K & 415K](http://www.representrunning.com/across-bay-12k-415k/) 🌉
