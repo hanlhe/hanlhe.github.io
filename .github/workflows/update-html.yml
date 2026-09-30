@@ -4,10 +4,16 @@ on:
   push:
     paths:
       - "README.md"
+      - "Makefile"
       - "src/template.html"
       - "assets/style.css"
+      - "assets/mapbox-config.example.js"
+      - "assets/races.js"
       - "scripts/build-meta.js"
+      - "scripts/write-mapbox-config.js"
+      - "race-routes/**"
       - ".github/workflows/update-html.yml"
+  workflow_dispatch:
 
 jobs:
   build-and-commit:
@@ -50,7 +56,7 @@ jobs:
 
       - name: Commit and push changes (if any)
         run: |
-          if ! git diff --quiet; then
+          if ! git diff --quiet -- index.html; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add index.html
