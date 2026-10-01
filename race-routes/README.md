@@ -34,6 +34,10 @@ allow `http://localhost:8000` for previews. Mapbox URL restrictions do not
 support wildcards. Route lines are built into `index.html`, so no browser GPX
 fetch is needed. Run `make -B` after adding or changing GPX files.
 
+The 3D streets control switches to Mapbox Standard and zooms to the route start.
+Detailed roads appear only at close zoom in locations covered by Mapbox; the
+full-route view remains available from the same control.
+
 GPX files committed here are public and may contain exact coordinates,
 timestamps, heart rate, and cadence. Remove details you do not want to publish
 before adding a file.

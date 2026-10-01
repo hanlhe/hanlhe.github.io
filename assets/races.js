@@ -5,7 +5,9 @@
   const detail = document.querySelector(".race-detail");
   const mapElement = document.getElementById("race-map");
   const mapMessage = document.getElementById("map-message");
-  if (!cards.length || !detail || !mapElement || !mapMessage) return;
+  const mapViewToggle = document.getElementById("map-view-toggle");
+  if (!cards.length || !detail || !mapElement || !mapMessage || !mapViewToggle)
+    return;
   const routeData = JSON.parse(
     document.getElementById("race-route-data")?.textContent || "{}"
   );
@@ -33,6 +35,8 @@
   let profileMarker;
   let routeAnimation;
   let currentStyle;
+  let streetDetail = false;
+  let pendingCamera = "overview";
   let selectionVersion = 0;
 
   function setLink(id, href) {
@@ -46,12 +50,34 @@
     mapElement.hidden = true;
     mapMessage.hidden = false;
     mapMessage.textContent = message;
+    mapViewToggle.hidden = true;
   }
 
   function mapStyle() {
-    return document.getElementById("theme-light").checked
-      ? "mapbox://styles/mapbox/light-v11"
-      : "mapbox://styles/mapbox/dark-v11";
+    return streetDetail
+      ? "mapbox://styles/mapbox/standard"
+      : document.getElementById("theme-light").checked
+        ? "mapbox://styles/mapbox/light-v11"
+        : "mapbox://styles/mapbox/dark-v11";
+  }
+
+  function lightPreset() {
+    return document.getElementById("theme-light").checked ? "day" : "night";
+  }
+
+  function updateMapViewToggle() {
+    mapViewToggle.textContent = streetDetail ? "Full route" : "3D streets";
+    mapViewToggle.title = streetDetail
+      ? "Return to the full race route"
+      : "Zoom in to explore available 3D street details";
+  }
+
+  function setMapStyle(style) {
+    if (!map || style === currentStyle) return;
+    currentStyle = style;
+    mapStyleReady = false;
+    mapViewToggle.disabled = true;
+    map.setStyle(style);
   }
 
   function loadMapbox() {
@@ -317,22 +343,39 @@
           "line-color": "#f97316",
           "line-width": 3.5,
           "line-opacity": 0.95,
+          ...(streetDetail ? { "line-emissive-strength": 1 } : {}),
         },
       });
     }
 
-    const bounds = new mapboxgl.LngLatBounds();
-    for (const segment of selectedRoute.coordinates) {
-      for (const point of segment) bounds.extend(point);
-    }
     map.resize();
-    map.fitBounds(bounds, {
-      padding: 46,
-      maxZoom: 14,
-      duration: matchMedia("(prefers-reduced-motion: reduce)").matches
-        ? 0
-        : 450,
-    });
+    const camera = pendingCamera;
+    pendingCamera = null;
+    if (camera === "street") {
+      map.easeTo({
+        center: selectedRoute.start,
+        zoom: 16.5,
+        pitch: 60,
+        bearing: 0,
+        duration: matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? 0
+          : 950,
+      });
+    } else if (camera === "overview") {
+      const bounds = new mapboxgl.LngLatBounds();
+      for (const segment of selectedRoute.coordinates) {
+        for (const point of segment) bounds.extend(point);
+      }
+      map.fitBounds(bounds, {
+        padding: 46,
+        maxZoom: 14,
+        pitch: 0,
+        bearing: 0,
+        duration: matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? 0
+          : 450,
+      });
+    }
     if (animate) startRouteAnimation(selectedRoute);
   }
 
@@ -366,6 +409,7 @@
       mapboxgl.accessToken = token;
       mapElement.hidden = false;
       mapMessage.hidden = true;
+      mapViewToggle.hidden = false;
 
       if (!map) {
         currentStyle = mapStyle();
@@ -375,16 +419,47 @@
           center: selectedRoute.start,
           zoom: 11,
         });
+        map.addControl(
+          {
+            onAdd: () => mapViewToggle,
+            onRemove: () => mapViewToggle.remove(),
+          },
+          "top-left"
+        );
         map.addControl(new mapboxgl.NavigationControl(), "top-right");
         map.addControl(new mapboxgl.FullscreenControl(), "top-right");
         map.on("style.load", () => {
+          if (streetDetail) {
+            try {
+              map.setConfigProperty("basemap", "lightPreset", lightPreset());
+              map.setConfigProperty("basemap", "showHdRoads", true);
+              map.setConfigProperty("basemap", "show3dObjects", true);
+            } catch (error) {
+              console.error("Mapbox street detail error:", error);
+              streetDetail = false;
+              pendingCamera = "overview";
+              updateMapViewToggle();
+              setMapStyle(mapStyle());
+              return;
+            }
+          }
           mapStyleReady = true;
+          mapViewToggle.disabled = false;
+          if (!selectedRoute) return;
           mapElement.hidden = false;
           mapMessage.hidden = true;
+          mapViewToggle.hidden = false;
           renderRoute(mapboxgl);
         });
         map.on("error", (event) => {
           console.error("Mapbox map error:", event.error);
+          if (streetDetail && !mapStyleReady) {
+            streetDetail = false;
+            pendingCamera = "overview";
+            updateMapViewToggle();
+            setMapStyle(mapStyle());
+            return;
+          }
           if ([401, 403].includes(Number(event.error?.status))) {
             showMessage(
               "Mapbox denied this map request. Check the token and its allowed URLs."
@@ -420,6 +495,14 @@
     if (!card) return;
     cancelRouteAnimation();
     clearElevationHover();
+    const leaveStreetView = streetDetail && card !== selectedCard;
+    if (leaveStreetView) {
+      streetDetail = false;
+      updateMapViewToggle();
+    }
+    pendingCamera = streetDetail ? "street" : "overview";
+    selectedRoute = undefined;
+    if (leaveStreetView) setMapStyle(mapStyle());
     const button = card.querySelector(".race-select");
     const race = button.dataset;
     selectionVersion += 1;
@@ -518,17 +601,30 @@
     showElevationPoint(next);
   });
 
+  mapViewToggle.addEventListener("click", () => {
+    if (!map || !mapStyleReady || !selectedRoute) return;
+    cancelRouteAnimation();
+    clearElevationHover();
+    streetDetail = !streetDetail;
+    pendingCamera = streetDetail ? "street" : "overview";
+    updateMapViewToggle();
+    setMapStyle(mapStyle());
+  });
+
   for (const input of document.querySelectorAll(
     '.theme-toggle input[name="theme"]'
   )) {
     input.addEventListener("change", () => {
       if (!map) return;
+      if (streetDetail) {
+        if (mapStyleReady)
+          map.setConfigProperty("basemap", "lightPreset", lightPreset());
+        return;
+      }
       const style = mapStyle();
       if (style === currentStyle) return;
       cancelRouteAnimation();
-      currentStyle = style;
-      mapStyleReady = false;
-      map.setStyle(style);
+      setMapStyle(style);
     });
   }
 
