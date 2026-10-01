@@ -25,6 +25,11 @@
   const routeData = JSON.parse(
     document.getElementById("race-route-data")?.textContent || "{}"
   );
+  const rotateKey = /Mac/i.test(
+    navigator.userAgentData?.platform || navigator.platform || ""
+  )
+    ? "Meta"
+    : "Control";
 
   document.documentElement.classList.add("js");
   const detailName = document.getElementById("detail-name");
@@ -436,6 +441,7 @@
           style: currentStyle,
           center: selectedRoute.start,
           zoom: 11,
+          pitchRotateKey: rotateKey,
         });
         map.addControl(
           {
