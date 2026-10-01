@@ -19,6 +19,11 @@ function cleanText(value) {
   return value.replace(/\s+/g, " ").trim();
 }
 
+function raceDisplayName(name, date) {
+  const year = date.slice(0, 4);
+  return new RegExp(`\\b${year}\\b`).test(name) ? name : `${name} ${year}`;
+}
+
 function raceSlug(name) {
   const englishName = name.includes("|") ? name.split("|").at(-1) : name;
   const slug = englishName
@@ -85,11 +90,13 @@ function extractRaces(document) {
         .trim()
         .replace(/^\)\s*/, "")
         .trim();
+      const name = cleanText(raceLink.textContent);
       races.push({
         category: category.filter,
         date,
         time: cleanText(codes[0].textContent),
-        name: cleanText(raceLink.textContent),
+        name,
+        displayName: raceDisplayName(name, date),
         emoji,
         resultUrl:
           codes[0].parentElement?.tagName === "A"
@@ -309,10 +316,10 @@ function buildCard(document, race) {
   button.setAttribute("aria-pressed", "false");
   button.setAttribute(
     "aria-label",
-    `${race.name}, ${race.date}, finish time ${race.time}${race.isPr ? ", personal best" : ""}. Show details`
+    `${race.displayName}, ${race.date}, finish time ${race.time}${race.isPr ? ", personal best" : ""}. Show details`
   );
   Object.assign(button.dataset, {
-    name: race.name,
+    name: race.displayName,
     date: race.date,
     time: race.time,
     emoji: race.emoji,
@@ -335,7 +342,7 @@ function buildCard(document, race) {
   date.dateTime = race.date;
 
   const title = element(document, "span", "race-card-title");
-  title.append(element(document, "span", "race-name", race.name));
+  title.append(element(document, "span", "race-name", race.displayName));
 
   const center = element(document, "span", "race-card-main");
   center.append(title);
