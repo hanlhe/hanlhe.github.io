@@ -976,7 +976,20 @@ html:has(#theme-synthwave:checked) .race-detail h2 {
   height: 100%;
 }
 
-.map-view-toggle {
+.map-view-controls,
+.map-rotate-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.map-view-controls {
+  background: transparent;
+  box-shadow: none;
+}
+
+.map-view-toggle,
+.map-rotate-button {
   padding: 0.52rem 0.75rem;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.45rem;
@@ -990,17 +1003,25 @@ html:has(#theme-synthwave:checked) .race-detail h2 {
     serif;
 }
 
-.map-view-toggle:hover,
-.map-view-toggle:focus-visible {
+.map-rotate-button {
+  min-width: 2.1rem;
+  padding-inline: 0.45rem;
+  font:
+    700 1rem/1 system-ui,
+    sans-serif;
+}
+
+.map-view-controls button:hover,
+.map-view-controls button:focus-visible {
   background: #f3f4f6;
 }
 
-.map-view-toggle:focus-visible {
+.map-view-controls button:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 2px;
 }
 
-.map-view-toggle:disabled {
+.map-view-controls button:disabled {
   cursor: wait;
   opacity: 0.65;
 }

@@ -5,8 +5,22 @@
   const detail = document.querySelector(".race-detail");
   const mapElement = document.getElementById("race-map");
   const mapMessage = document.getElementById("map-message");
+  const mapViewControls = document.getElementById("map-view-controls");
   const mapViewToggle = document.getElementById("map-view-toggle");
-  if (!cards.length || !detail || !mapElement || !mapMessage || !mapViewToggle)
+  const rotateControls = document.getElementById("map-rotate-controls");
+  const rotateLeft = document.getElementById("map-rotate-left");
+  const rotateRight = document.getElementById("map-rotate-right");
+  if (
+    !cards.length ||
+    !detail ||
+    !mapElement ||
+    !mapMessage ||
+    !mapViewControls ||
+    !mapViewToggle ||
+    !rotateControls ||
+    !rotateLeft ||
+    !rotateRight
+  )
     return;
   const routeData = JSON.parse(
     document.getElementById("race-route-data")?.textContent || "{}"
@@ -38,6 +52,7 @@
   let streetDetail = false;
   let pendingCamera = "overview";
   let selectionVersion = 0;
+  const mapboxVersion = "v3.32.0";
 
   function setLink(id, href) {
     const link = document.getElementById(id);
@@ -50,7 +65,7 @@
     mapElement.hidden = true;
     mapMessage.hidden = false;
     mapMessage.textContent = message;
-    mapViewToggle.hidden = true;
+    mapViewControls.hidden = true;
   }
 
   function mapStyle() {
@@ -70,6 +85,7 @@
     mapViewToggle.title = streetDetail
       ? "Return to the full race route"
       : "Zoom in to explore available 3D street details";
+    rotateControls.hidden = !streetDetail;
   }
 
   function setMapStyle(style) {
@@ -77,6 +93,8 @@
     currentStyle = style;
     mapStyleReady = false;
     mapViewToggle.disabled = true;
+    rotateLeft.disabled = true;
+    rotateRight.disabled = true;
     map.setStyle(style);
   }
 
@@ -88,13 +106,13 @@
       const css = document.createElement("link");
       css.id = "mapbox-css";
       css.rel = "stylesheet";
-      css.href = "https://api.mapbox.com/mapbox-gl-js/v3.30.0/mapbox-gl.css";
+      css.href = `https://api.mapbox.com/mapbox-gl-js/${mapboxVersion}/mapbox-gl.css`;
       document.head.append(css);
     }
 
     mapboxPromise = new Promise((resolve, reject) => {
       const script = document.createElement("script");
-      script.src = "https://api.mapbox.com/mapbox-gl-js/v3.30.0/mapbox-gl.js";
+      script.src = `https://api.mapbox.com/mapbox-gl-js/${mapboxVersion}/mapbox-gl.js`;
       script.onload = () =>
         window.mapboxgl
           ? resolve(window.mapboxgl)
@@ -409,7 +427,7 @@
       mapboxgl.accessToken = token;
       mapElement.hidden = false;
       mapMessage.hidden = true;
-      mapViewToggle.hidden = false;
+      mapViewControls.hidden = false;
 
       if (!map) {
         currentStyle = mapStyle();
@@ -421,8 +439,8 @@
         });
         map.addControl(
           {
-            onAdd: () => mapViewToggle,
-            onRemove: () => mapViewToggle.remove(),
+            onAdd: () => mapViewControls,
+            onRemove: () => mapViewControls.remove(),
           },
           "top-left"
         );
@@ -445,10 +463,12 @@
           }
           mapStyleReady = true;
           mapViewToggle.disabled = false;
+          rotateLeft.disabled = false;
+          rotateRight.disabled = false;
           if (!selectedRoute) return;
           mapElement.hidden = false;
           mapMessage.hidden = true;
-          mapViewToggle.hidden = false;
+          mapViewControls.hidden = false;
           renderRoute(mapboxgl);
         });
         map.on("error", (event) => {
@@ -610,6 +630,21 @@
     updateMapViewToggle();
     setMapStyle(mapStyle());
   });
+
+  for (const [button, degrees] of [
+    [rotateLeft, -30],
+    [rotateRight, 30],
+  ]) {
+    button.addEventListener("click", () => {
+      if (!map || !mapStyleReady || !streetDetail) return;
+      map.easeTo({
+        bearing: map.getBearing() + degrees,
+        duration: matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? 0
+          : 300,
+      });
+    });
+  }
 
   for (const input of document.querySelectorAll(
     '.theme-toggle input[name="theme"]'

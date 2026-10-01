@@ -36,7 +36,9 @@ fetch is needed. Run `make -B` after adding or changing GPX files.
 
 The 3D streets control switches to Mapbox Standard and zooms to the route start.
 Detailed roads appear only at close zoom in locations covered by Mapbox; the
-full-route view remains available from the same control.
+full-route view remains available from the same control. In 3D, the rotation
+buttons turn the map by 30 degrees; right-drag (Control-drag on Mac) or a
+two-finger twist also rotates it.
 
 GPX files committed here are public and may contain exact coordinates,
 timestamps, heart rate, and cadence. Remove details you do not want to publish

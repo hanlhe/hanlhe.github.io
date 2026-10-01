@@ -29,7 +29,7 @@
       href="https://cdn.jsdelivr.net/npm/@joshuasu/lxgwbright-code-web@2.711.0/style.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/style.css?v=1a6e751dee5c" />
+    <link rel="stylesheet" href="assets/style.css?v=b125d6726f6f" />
   </head>
   <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -1938,15 +1938,44 @@
               <div class="map-message" id="map-message" role="status">
                 Route map not available for this race yet.
               </div>
-              <button
-                class="mapboxgl-ctrl map-view-toggle"
-                id="map-view-toggle"
-                type="button"
-                title="Zoom in to explore available 3D street details"
+              <div
+                class="mapboxgl-ctrl map-view-controls"
+                id="map-view-controls"
                 hidden=""
               >
-                3D streets
-              </button>
+                <button
+                  class="map-view-toggle"
+                  id="map-view-toggle"
+                  type="button"
+                  title="Zoom in to explore available 3D street details"
+                >
+                  3D streets
+                </button>
+                <div
+                  class="map-rotate-controls"
+                  id="map-rotate-controls"
+                  hidden=""
+                >
+                  <button
+                    class="map-rotate-button"
+                    id="map-rotate-left"
+                    type="button"
+                    aria-label="Rotate map left 30 degrees"
+                    title="Rotate left"
+                  >
+                    ⟲
+                  </button>
+                  <button
+                    class="map-rotate-button"
+                    id="map-rotate-right"
+                    type="button"
+                    aria-label="Rotate map right 30 degrees"
+                    title="Rotate right"
+                  >
+                    ⟳
+                  </button>
+                </div>
+              </div>
             </div>
             <section
               class="elevation-panel"
@@ -11461,7 +11490,7 @@
         }
       </script>
     </main>
-    <script src="assets/mapbox-config.js?v=9d3f2f7728dd"></script>
-    <script src="assets/races.js?v=31f94151c9fd" defer=""></script>
+    <script src="assets/mapbox-config.js?v=05aed1cdac7a"></script>
+    <script src="assets/races.js?v=42bc6c7c876e" defer=""></script>
   </body>
 </html>

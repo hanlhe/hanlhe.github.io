@@ -420,7 +420,13 @@ function buildPage(document, races, routeData) {
       <div class="map-shell" id="map-shell">
         <div id="race-map" role="region" aria-label="Selected race route map" hidden></div>
         <div class="map-message" id="map-message" role="status">Route map not available for this race yet.</div>
-        <button class="mapboxgl-ctrl map-view-toggle" id="map-view-toggle" type="button" title="Zoom in to explore available 3D street details" hidden>3D streets</button>
+        <div class="mapboxgl-ctrl map-view-controls" id="map-view-controls" hidden>
+          <button class="map-view-toggle" id="map-view-toggle" type="button" title="Zoom in to explore available 3D street details">3D streets</button>
+          <div class="map-rotate-controls" id="map-rotate-controls" hidden>
+            <button class="map-rotate-button" id="map-rotate-left" type="button" aria-label="Rotate map left 30 degrees" title="Rotate left">⟲</button>
+            <button class="map-rotate-button" id="map-rotate-right" type="button" aria-label="Rotate map right 30 degrees" title="Rotate right">⟳</button>
+          </div>
+        </div>
       </div>
       <section class="elevation-panel" id="elevation-panel" aria-label="Elevation profile" hidden>
         <div class="elevation-heading"><span>Elevation</span><span id="elevation-range"></span></div>
