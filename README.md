@@ -6,6 +6,7 @@ title: Running Race Results - Marathon & Half Marathon
 
 ## Marathon
 
+- `04:01:38` @ `10/18/2026` - [TCS Amsterdam Marathon](https://www.tcsamsterdammarathon.eu/) 🌷
 - [`03:59:00`](https://runnet.jp/record/record.do?raceId=378280&numberCard=52492) @ `02/22/2026` - [大阪マラソン | Osaka Marathon](https://www.osaka-marathon.com/) ([strava](https://www.strava.com/activities/17479272012)) 🏯
 - [`03:42:41`](https://runsignup.com/Race/Results/53399/IndividualResult/hPGM?resultSetId=607910#U36580675) @ `11/15/2025` - [Allianz Richmond Marathon](https://www.richmondmarathon.org/) ([strava](https://www.strava.com/activities/16466549320)) 🏛️
 - [`04:17:09`](https://my2.raceresult.com/356181/certificate/128/All%20Certificates) @ `08/31/2025` - [Kauaʻi Marathon](https://thekauaimarathon.com/) ([strava](https://www.strava.com/activities/15653654664)) 🌺
