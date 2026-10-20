@@ -124,7 +124,7 @@ body {
   overflow-wrap: break-word;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  font-family: "Spectral", "LXGW Bright Code Light", Georgia, serif;
+  font-family: "JinGleya Sans", sans-serif;
   font-size: 1.2rem;
   position: relative;
   min-height: 100vh;
@@ -214,7 +214,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Spectral", "LXGW Bright Code Light", Georgia, serif;
+  font-family: "JinGleya Sans", sans-serif;
   font-size: 2em;
   margin: 0.67em 0;
 }
@@ -232,7 +232,7 @@ li {
 }
 
 code {
-  font-family: "Spectral", "LXGW Bright Code Light", Georgia, serif;
+  font-family: "JinGleya Sans", sans-serif;
   font-size: 1em;
   margin: 0;
   hyphens: manual;
@@ -247,7 +247,7 @@ li > a > code:first-child {
 }
 
 pre {
-  font-family: "Spectral", "LXGW Bright Code Light", Georgia, serif;
+  font-family: "JinGleya Sans", sans-serif;
   font-size: 1em;
   margin: 1em 0;
   overflow: auto;
@@ -852,7 +852,7 @@ html:has(#theme-synthwave:checked) .page-intro h1 {
 }
 
 .race-card-time {
-  font-family: "Spectral", "LXGW Bright Code Light", Georgia, serif;
+  font-family: "JinGleya Sans", sans-serif;
   font-size: 1.1rem;
   font-weight: 800;
   font-variant-numeric: tabular-nums;
@@ -954,7 +954,7 @@ html:has(#theme-synthwave:checked) .race-detail h2 {
 }
 
 .detail-time strong {
-  font-family: "Spectral", "LXGW Bright Code Light", Georgia, serif;
+  font-family: "JinGleya Sans", sans-serif;
   font-size: 1.65rem;
   font-variant-numeric: tabular-nums;
   line-height: 1;
@@ -998,9 +998,8 @@ html:has(#theme-synthwave:checked) .race-detail h2 {
   color: #26313a;
   cursor: pointer;
   font:
-    700 0.8rem/1.15 "Spectral",
-    Georgia,
-    serif;
+    700 0.8rem/1.15 "JinGleya Sans",
+    sans-serif;
 }
 
 .map-rotate-button {
