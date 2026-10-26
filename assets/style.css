@@ -705,7 +705,7 @@ html:has(#theme-synthwave:checked) .page-intro h1 {
 
 .archive-layout {
   display: grid;
-  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+  grid-template-columns: minmax(0, 0.65fr) minmax(0, 1.35fr);
   align-items: start;
   gap: clamp(1.4rem, 3vw, 3rem);
 }
