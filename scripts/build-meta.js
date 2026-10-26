@@ -224,46 +224,6 @@ function elevationProfile(segments) {
   return samples;
 }
 
-function simplifyPoints(points, tolerance = 7) {
-  if (points.length < 3) return points;
-  const metersPerDegree = 111320;
-  const longitudeScale =
-    metersPerDegree * Math.cos((points[0][0] * Math.PI) / 180);
-  const keep = new Uint8Array(points.length);
-  keep[0] = keep[points.length - 1] = 1;
-  const ranges = [[0, points.length - 1]];
-
-  while (ranges.length) {
-    const [start, end] = ranges.pop();
-    const a = points[start];
-    const b = points[end];
-    const dx = (b[1] - a[1]) * longitudeScale;
-    const dy = (b[0] - a[0]) * metersPerDegree;
-    const lengthSquared = dx * dx + dy * dy;
-    let farthest = -1;
-    let farthestDistance = tolerance * tolerance;
-
-    for (let index = start + 1; index < end; index += 1) {
-      const point = points[index];
-      const px = (point[1] - a[1]) * longitudeScale;
-      const py = (point[0] - a[0]) * metersPerDegree;
-      const fraction = lengthSquared
-        ? Math.max(0, Math.min(1, (px * dx + py * dy) / lengthSquared))
-        : 0;
-      const distance = (px - fraction * dx) ** 2 + (py - fraction * dy) ** 2;
-      if (distance > farthestDistance) {
-        farthestDistance = distance;
-        farthest = index;
-      }
-    }
-    if (farthest !== -1) {
-      keep[farthest] = 1;
-      ranges.push([start, farthest], [farthest, end]);
-    }
-  }
-  return points.filter((_, index) => keep[index]);
-}
-
 function encodePolyline(points) {
   let encoded = "";
   let lastLat = 0;
@@ -299,7 +259,7 @@ function buildRouteData(races) {
     }
     if (!segments.length) throw new Error(`No route points in ${race.route}`);
     routes[race.route] = {
-      lines: segments.map((points) => encodePolyline(simplifyPoints(points))),
+      lines: segments.map(encodePolyline),
       profile: elevationProfile(segments),
     };
   }
