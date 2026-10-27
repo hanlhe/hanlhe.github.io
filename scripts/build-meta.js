@@ -5,6 +5,7 @@ const path = require("path");
 const crypto = require("crypto");
 const { JSDOM } = require("jsdom");
 const smoothRoute = require("./smooth-route");
+const encodePolyline = require("./encode-route");
 
 const categories = [
   { id: "marathon", label: "Marathon", filter: "marathon" },
@@ -225,27 +226,6 @@ function elevationProfile(segments) {
   return samples;
 }
 
-function encodePolyline(points) {
-  let encoded = "";
-  let lastLat = 0;
-  let lastLon = 0;
-  for (const [latitude, longitude] of points) {
-    const lat = Math.round(latitude * 1e5);
-    const lon = Math.round(longitude * 1e5);
-    for (const change of [lat - lastLat, lon - lastLon]) {
-      let value = change < 0 ? ~(change << 1) : change << 1;
-      while (value >= 0x20) {
-        encoded += String.fromCharCode((0x20 | (value & 0x1f)) + 63);
-        value >>= 5;
-      }
-      encoded += String.fromCharCode(value + 63);
-    }
-    lastLat = lat;
-    lastLon = lon;
-  }
-  return encoded;
-}
-
 function buildRouteData(races) {
   const routes = {};
   for (const race of races) {
@@ -260,6 +240,7 @@ function buildRouteData(races) {
     }
     if (!segments.length) throw new Error(`No route points in ${race.route}`);
     routes[race.route] = {
+      precision: 7,
       lines: segments.map((points) => encodePolyline(smoothRoute(points))),
       profile: elevationProfile(segments),
     };

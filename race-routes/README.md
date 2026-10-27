@@ -23,6 +23,8 @@ and segment endpoints stay fixed. The filter moves each point by at most 3 m.
 The source GPX and elevation profile use the original coordinates. Filtering
 uses neighboring samples, so its reach depends on the recording interval; it
 can slightly round tight turns.
+Route lines keep seven decimal places of coordinate precision (about 1 cm),
+and the map preserves their vertices when zooming in.
 
 Garmin exports named `activity_*.gpx` usually contain the activity name in
 `<trk><name>` and a UTC start time in `<metadata><time>`. Use the race's local

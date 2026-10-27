@@ -126,7 +126,7 @@
     return mapboxPromise;
   }
 
-  function decodePolyline(encoded) {
+  function decodePolyline(encoded, precision = 5) {
     const points = [];
     let index = 0;
     let lat = 0;
@@ -138,15 +138,15 @@
       do {
         if (index >= encoded.length) throw new Error("Invalid route data");
         byte = encoded.charCodeAt(index++) - 63;
-        value |= (byte & 0x1f) << shift;
+        value += (byte & 0x1f) * 2 ** shift;
         shift += 5;
       } while (byte >= 0x20);
-      return value & 1 ? ~(value >> 1) : value >> 1;
+      return value % 2 ? -(Math.floor(value / 2) + 1) : value / 2;
     }
     while (index < encoded.length) {
       lat += nextNumber();
       lon += nextNumber();
-      points.push([lat / 1e5, lon / 1e5]);
+      points.push([lat / 10 ** precision, lon / 10 ** precision]);
     }
     return points;
   }
@@ -338,6 +338,8 @@
       map.addSource("selected-route", {
         type: "geojson",
         data: route,
+        tolerance: 0,
+        maxzoom: 22,
       });
     }
     if (!map.getLayer("route-outline")) {
@@ -405,7 +407,7 @@
       if (!token.startsWith("pk.")) throw new Error("Missing Mapbox token");
 
       const coordinates = route.lines.map((segment) =>
-        decodePolyline(segment).map(([lat, lon]) => [lon, lat])
+        decodePolyline(segment, route.precision).map(([lat, lon]) => [lon, lat])
       );
       selectedRoute = {
         data: {

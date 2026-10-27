@@ -1,9 +1,37 @@
 const assert = require("node:assert/strict");
 const test = require("node:test");
 const smoothRoute = require("./smooth-route");
+const encodePolyline = require("./encode-route");
 
 const near = (a, b) =>
   a.every((value, axis) => Math.abs(value - b[axis]) < 1e-12);
+
+test("route encoding preserves centimeter differences in Osaka coordinates", () => {
+  assert.equal(
+    encodePolyline([
+      [34.6937373, 135.5021651],
+      [34.6937374, 135.5021652],
+    ]),
+    "y`kvtSet}nwoAAA"
+  );
+});
+
+test("seven-decimal encoding handles negative coordinates and world-wide deltas", () => {
+  assert.equal(
+    encodePolyline([
+      [90, 180],
+      [-90, -180],
+    ]),
+    "_osrst@__hfhjB~~gfhjB~~pmquE"
+  );
+  assert.equal(
+    encodePolyline([
+      [-37.1234567, -122.7654321],
+      [-37.1234568, -122.7654322],
+    ]),
+    "lojacU`jaqdhA@@"
+  );
+});
 
 test("empty, short, and stationary tracks stay finite and preserve endpoints", () => {
   for (const points of [
