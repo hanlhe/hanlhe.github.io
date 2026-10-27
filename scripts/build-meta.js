@@ -354,9 +354,9 @@ function buildPage(document, races, routeData) {
   detail.innerHTML = `
     <div class="detail-inner">
       <div class="detail-topline">
+        <h2 id="detail-name"></h2>
         <span class="detail-icon" id="detail-icon" aria-hidden="true" hidden></span>
       </div>
-      <h2 id="detail-name"></h2>
       <p class="detail-date" id="detail-date"></p>
       <div class="detail-time"><span>Finish time</span><strong id="detail-time"></strong></div>
       <div class="map-shell" id="map-shell">
