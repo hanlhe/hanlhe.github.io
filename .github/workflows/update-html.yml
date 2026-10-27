@@ -10,6 +10,7 @@ on:
       - "assets/mapbox-config.example.js"
       - "assets/races.js"
       - "scripts/build-meta.js"
+      - "scripts/smooth-route*.js"
       - "scripts/write-mapbox-config.js"
       - "race-routes/**"
       - ".github/workflows/update-html.yml"

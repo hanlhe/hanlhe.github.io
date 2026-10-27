@@ -4,6 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 const { JSDOM } = require("jsdom");
+const smoothRoute = require("./smooth-route");
 
 const categories = [
   { id: "marathon", label: "Marathon", filter: "marathon" },
@@ -259,7 +260,7 @@ function buildRouteData(races) {
     }
     if (!segments.length) throw new Error(`No route points in ${race.route}`);
     routes[race.route] = {
-      lines: segments.map(encodePolyline),
+      lines: segments.map((points) => encodePolyline(smoothRoute(points))),
       profile: elevationProfile(segments),
     };
   }

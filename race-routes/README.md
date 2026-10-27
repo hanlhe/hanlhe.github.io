@@ -17,6 +17,13 @@ finds matching files and puts compact route lines and elevation samples into
 still show a route but have no elevation chart. The GitHub Actions workflow
 rebuilds the page when this directory changes.
 
+For display, each segment gets one five-point quadratic Savitzky–Golay pass,
+followed by a centripetal Catmull–Rom curve. Every filtered point is retained,
+and segment endpoints stay fixed. The filter moves each point by at most 3 m.
+The source GPX and elevation profile use the original coordinates. Filtering
+uses neighboring samples, so its reach depends on the recording interval; it
+can slightly round tight turns.
+
 Garmin exports named `activity_*.gpx` usually contain the activity name in
 `<trk><name>` and a UTC start time in `<metadata><time>`. Use the race's local
 date for the filename; Tianjin and Dalian start on the previous date in UTC.

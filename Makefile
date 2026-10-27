@@ -2,8 +2,9 @@
 
 all: index.html
 
-index.html: README.md src/template.html assets/style.css assets/mapbox-config.js assets/races.js scripts/build-meta.js race-routes $(wildcard race-routes/*.gpx)
-	npx prettier --write assets/style.css assets/mapbox-config.js assets/races.js src/template.html scripts/build-meta.js
+index.html: README.md src/template.html assets/style.css assets/mapbox-config.js assets/races.js scripts/build-meta.js scripts/smooth-route.js scripts/smooth-route.test.js race-routes $(wildcard race-routes/*.gpx)
+	npx prettier --write assets/style.css assets/mapbox-config.js assets/races.js src/template.html scripts/build-meta.js scripts/smooth-route.js scripts/smooth-route.test.js
+	node --test scripts/smooth-route.test.js
 	pandoc README.md -o index.html --template=src/template.html
 	node scripts/build-meta.js
 	npx prettier --write index.html
